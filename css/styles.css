@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+body{
+   padding:0 !important; 
+   margin: 0 !important;
+}
+.formulario{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.formulario{
+   margin-top: 20px;
+}
+footer {
+   height: 125px;
+   width: 100%;
+   background-color: #000000;
+   color:#ffffff;
+   font-size:15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+  
+}
+.fa-brands{
+   font-size: 20px;
+}
+.info {display: flex;
+   font-size: 2vh;
+
+   }
+
+   .redesSociales i {
+      margin:10px;
+      }
+
+      
