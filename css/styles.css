@@ -12,28 +12,6 @@ body{
 .formulario{
    margin-top: 20px;
 }
-footer {
-   height: 125px;
-   width: 100%;
-   background-color: #000000;
-   color:#ffffff;
-   font-size:15px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-  
-  
-}
-.fa-brands{
-   font-size: 20px;
-}
-.info {display: flex;
-   font-size: 2vh;
 
-   }
-
-   .redesSociales i {
-      margin:10px;
-      }
 
       
