@@ -4,85 +4,200 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Linkeodebootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
    <!--linkeo de estilos-->
-    <link rel="stylesheet" href="../css/styles.css">
+   <link rel="stylesheet" href="../css/styles.css">
     <title>Mi primer proyecto</title>
     <link rel="icon" type="image/favicon" href=https://freesvg.org/img/abstract-user-flat-1.png/>
-
+   
+   
 </head>
-<body>
-  <header class= "encabezado"> 
 
-    <!--Logo linkeable--> 
- 
-   <a href="../index.html"><img src="https://freesvg.org/img/abstract-user-flat-1.png" alt="logo del sitio" width="80"></a>
-   
-   
-  
-     <!--comienzo del nav-->
-    <nav> 
-        <ul class="menu"> 
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./aboutus.html">About us</a></li>
-            <li><a href="./rooms.html">Rooms</a></li>
-            <li><a href="./gallery.html">Gallery</a></li>
-            <li><a href="./activities.html">Activities</a></li>
-            <li><a href="./contact.html">Contact</a></li>   
+<body class="container-fluid">
+
+
+
+ <header class="container-fluid">
+
+
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Londres Hotel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutus.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./rooms.html">Rooms</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./activities.html">Activities</a>
+       </li>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+       </li>
+
         </ul>
-    </nav>
-     <!--fin del nav-->
-   </header> 
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-     <!--comienzo del main-->
+  <!--findelNavBar-->
 
-   <main class="infoRooms">
-    <h1>Rooms</h1>
+  
+ </header>
 
-   <section class="contenedorRooms">
-    <div class="infoHabitaciones">
-      <img class="habitaciones" src="../img/primerahabitacion.webp" alt="primerahabitacion">
-    
-      <button class="boton">Description</button>
-     
-     </div>
-
-     <div class="infoHabitaciones">
-      <img class="habitaciones" src="../img/habitacion2.jpg" alt="primerahabitacion">
-    
-      <button class="boton">Description</button>
-     
-     </div>
-
-     <div class="infoHabitaciones">
-      <img class="habitaciones" src="../img/habitacion3.jpg" alt="primerahabitacion">
-    
-      <button class="boton">Description</button>
-     
-     </div>
-   </section>
-
-    
-
-      
-   </main>
-
-     <!--fin del main-->
-
-        <!--comienzo del footer-->
-        <footer class="final">
-          <p>&copy Laura Daniela 2022</p>
-          <div class="info">
-            <div class="redesSociales">
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-twitter"></i>
-             </div>
-              
+ <main>
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="../img/habitacionlondres1bootstrap.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
           </div>
-         
-        
-        </footer>
-             <!--fin del footer-->
 
-   <body>
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="../img/habitacionlondres2bootstrap.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="../img/habitacionlondres3bootstrap.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  
+  <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+
+ </main>
+ 
+ 
+ <!--comienzo del footer-->
+ <footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 Copyright">
+    © 2022 Copyright:
+    <a class="text-white" href="./index.html">Laura Daniela</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+     <!--fin del footer-->
+
+
+
+<!--LinkeoJsbootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
 </html>

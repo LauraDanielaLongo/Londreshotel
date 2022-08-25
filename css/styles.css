@@ -13,5 +13,12 @@ body{
    margin-top: 20px;
 }
 
+.tituloDelFormulario{
+   text-align: center;
+   margin: 30px 0px;
+}
 
+.copyright{
+   background-color: rgba(0, 0, 0, 0.2);
+}
       

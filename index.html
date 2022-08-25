@@ -84,32 +84,40 @@
 <!--formulario-->
 
    <section class="container formulario">
-    
+    <h1 class="tituloDelFormulario">BOOK NOW</h1>
     <form class="row g-3 needs-validation" novalidate>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <label for="validationCustom01" class="form-label">First name</label>
         <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
-      <div class="col-md-4">
+      
+      <div class="col-md-6">
+        <label for="validationCheckout" class="form-label">People</label>
+        <div class="input-group has-validation">
+          <input type="number" class="form-control" id="validationCustomcheckin" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
         <label for="validationCheckin" class="form-label">Check in</label>
         <input type="date" class="form-control" id="validationCustom02" value="Otto" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
-      <div class="col-md-4">
-        <label for="validationCheckout" class="form-label">Check Out</label>
-        <div class="input-group has-validation">
-          <input type="date" class="form-control" id="validationCustomcheckin" aria-describedby="inputGroupPrepend" required>
-          <div class="invalid-feedback">
-            Please choose a username.
-          </div>
+
+      <div class="col-md-6">
+        <label for="validationCheckin" class="form-label">Check out</label>
+        <input type="date" class="form-control" id="validationCustom02" value="Otto" required>
+        <div class="valid-feedback">
+          Looks good!
         </div>
       </div>
-    
       
       <div class="col-12">
         <button class="btn btn-primary" type="submit">Submit form</button>
@@ -161,7 +169,7 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="text-center p-3 Copyright">
     © 2022 Copyright:
     <a class="text-white" href="./index.html">Laura Daniela</a>
   </div>
