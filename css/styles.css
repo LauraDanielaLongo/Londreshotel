@@ -29,3 +29,29 @@ body{
 .containerContacto{
    margin-top: 40px;
 }
+
+.imagenWifi{
+   width: 200px;
+   margin-left: 80px;
+
+}
+ .imagenServicioHabitacion{
+   width: 200px;
+   margin-left: 80px;
+
+ }
+  .imagenDesayuno {
+width: 200px;
+margin-left: 80px;
+
+}
+.btn-dark:hover{
+   background: #fdfdfd66 ;
+   box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
+   color: black;
+}
+
+.btn-dark{
+   border-radius: 10px;
+}
+   
