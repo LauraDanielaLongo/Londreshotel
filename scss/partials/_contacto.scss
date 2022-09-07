@@ -1,0 +1,6 @@
+.containerContacto{
+     margin-top: map-get($estilos, marginContacto);
+  }
+.contactUs{
+   @extend %titulosCentrados;
+}

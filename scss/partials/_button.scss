@@ -1,0 +1,7 @@
+.btn-dark:hover{
+    @include button-hover (#fdfdfd66,#000000);
+}
+ 
+ .btn-dark{
+    border-radius: map-get($estilos, esquinasBoton)
+ }

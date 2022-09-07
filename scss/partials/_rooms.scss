@@ -1,0 +1,8 @@
+.cardsRoom{
+    margin-bottom: map-get($estilos, marginBottomCards);
+  }
+    
+.tituloDelFormulario{
+        @extend %titulosCentrados;
+     }
+     

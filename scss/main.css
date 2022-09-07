@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+.gallery, .tituloDelFormulario, .contactUs {
+  text-align: center;
+  margin: 50px;
+}
+
+.imagenDesayuno, .imagenServicioHabitacion, .imagenWifi {
+  width: 200px;
+  margin-left: 80px;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+footer .copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark:hover {
+  background: rgba(253, 253, 253, 0.4);
+  color: #000000;
+}
+
+.btn-dark {
+  border-radius: 10px;
+}
+
+.containerContacto {
+  margin-top: 40px;
+}
+
+.cardsRoom {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */
