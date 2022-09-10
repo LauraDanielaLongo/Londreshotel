@@ -33,4 +33,13 @@ footer .copyright {
 
 .cardsRoom {
   margin-bottom: 30px;
+}
+
+.btnSubmit {
+  margin-bottom: 10px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */
